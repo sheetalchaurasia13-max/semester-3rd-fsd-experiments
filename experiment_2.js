@@ -7,7 +7,7 @@ const detail = fs.readFileSync('student.txt' , 'utf8');
 console.log(detail);
 
 // updates :
-fs.appendFileSync('student.txt', '\nSubject : FSD\nMarks : 20\nAttendence : 90%');
+fs.appendFileSync('student.txt', '\nSubject : FSD\nMarks : 100\nAttendence : 96%');
 console.log('file read successfully');
 const update = fs.readFileSync('student.txt' , 'utf8');
 console.log(update);
