@@ -1,5 +1,8 @@
 const fs = require('fs');
 
+
+
+
 // Create / Write
 fs.writeFileSync('student.txt', 'B.Tech Node.js Lab');
 //  Read 
